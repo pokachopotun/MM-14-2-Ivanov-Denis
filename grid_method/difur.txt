@@ -1,0 +1,25 @@
+
+
+
+c(x, t) = sin(t)x^2 - cos(t)
+y = exp(5 - x)cos(t)
+dy/dx = -epx(5 - x) * cos(t)
+dy/dt = exp(5 - x) ( - sin(t))
+
+f(x, t) = -exp(5 - x)sin(t) + (sin(t)x^2 - cos(t))(-exp(5 - x) cos(t))
+
+
+
+
+
+
+
+
+
+//g(x, t) = sin(xt) + xt
+//g(0, t) = g(t, 0) = 0
+//
+//dg/dt + (x^3 + x) * dg/dx =  x * cos(xt) + t * (x * x + 1) * cos(x*t)
+//
+//c(x, t) = x * x + 1
+//f(x, t) = x * cos(x*t) + t * (x* x + 1) * cos(x * t)
